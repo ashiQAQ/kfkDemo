@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.kafka.mapper.UserMapper">
+    <select id="listUser" resultType="com.kafka.entity.User">
+        select * from tb_user
+    </select>
+    <insert id="addUser" parameterType="com.kafka.entity.User">
+        insert into tb_user(name,gender,age)
+        values(#{record.name},#{record.gender},#{record.age})
+    </insert>
+</mapper>

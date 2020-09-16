@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <!-- import CSS -->
+  <link rel="stylesheet" href="./plugins/index.css">
+  <style scoped>
+	table,tr,th,td{
+		
+	}
+
+  [v-cloak] {
+    display: none;
+}
+</style>
+</head>
+<body>
+  <div id="app" v-cloak>
+    <div>
+		姓名:<input type="text" placeholder="姓名" v-model="user.name"/>
+		<br>
+		性别:<input type="radio" id="gender1" value="1" name="gender" v-model="user.gender">
+  <label for="gender1">男</label>
+  <input type="radio" id="gender0" value="0" name="gender" v-model="user.gender">
+  <label for="gender0">女</label>
+  <br>
+		<br>
+		年龄:<input type="text" placeholder="年龄" v-model="user.age"/>
+		
+		<button @click="addUser">提交</button>
+	</div>
+	<div>
+		数据列表:
+		<table>
+			<thead>
+				<tr><th>id</th><th>name</th><th>age</th><th>gender</th></tr>
+			</thead>
+			<tbody>
+			<tr v-for="item in userList"><td>{{item.id}}</td><td>{{item.name}}</td><td>{{item.age}}</td><td>{{item.gender}}</td></tr>
+			</tbody>
+		</table>
+	</div>
+  </div>
+</body>
+  <!-- import Vue before Element -->
+  <script src="./plugins/vue.js"></script>
+  <!-- import JavaScript -->
+  <script src="./plugins/axios.min.js"></script>
+
+  <script>
+    new Vue({
+      el: '#app',
+      data: function() {
+        return {
+				user:{
+					name:"gyx",
+					age:20,
+					gender:1
+				},
+				userList:[]
+        }
+      },
+      mounted(){
+		  window.vue= this;
+		 this.listUser();
+      },
+      methods:{
+		addUser(){
+			let _this = this;
+			let url = "http://127.0.0.1:8080/kfk/user/add";
+			axios.post(url, _this.user,{
+				headers: {
+					"Content-Type": "application/json;charset=utf-8"  //头部信息
+				}
+				}).then(function (response) {
+						if(response.data=="true"){
+							_this.listUser();
+						}
+			}).catch(function (error) {
+			    console.log(error);
+			});
+		},
+		listUser(){
+			let _this = this;
+			let url = "http://127.0.0.1:8080/kfk/user/list";
+			axios.get(url).then(function (response) {
+			    _this.userList = response.data;
+			}).catch(function (error) {
+			    console.log(error);
+			});
+		},
+      }
+  });
+  </script>
+</html>
