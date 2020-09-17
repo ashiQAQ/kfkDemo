@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39ff94e2-4c89-49e0-8472-356d800c99e8" name="Default Changelist" comment="" />
+    <list default="true" id="39ff94e2-4c89-49e0-8472-356d800c99e8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reame.md" beforeDir="false" afterPath="$PROJECT_DIR$/reame.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/前端和sql初始化数据/kafka.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/前端和sql初始化数据/kafka测试html/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/前端和sql初始化数据/kafka测试html/plugins/axios.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/前端和sql初始化数据/kafka测试html/plugins/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/前端和sql初始化数据/kafka测试html/plugins/vue.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/前端和sql初始化数据/sql/sql.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/前端和sql初始化数据/zookeeper.rar" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +26,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -25,17 +39,22 @@
     </option>
   </component>
   <component name="ProjectId" id="1hbOsqJ0lAAfWKeUNC9tpdzk4CC" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -46,15 +65,16 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ashi_\Desktop\kfkDemo" />
       <recent name="C:\Users\ashi_\Desktop\a" />
-      <recent name="C:\Users\ashi_\Desktop\a\producer\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.kafka.mapper" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ashi_\Desktop\a" />
+      <recent name="C:\Users\ashi_\Desktop\a\producer\src\main\resources" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.ProducerApplication">
@@ -102,11 +122,15 @@
       <workItem from="1600276537479" duration="1059000" />
       <workItem from="1600277647565" duration="4496000" />
       <workItem from="1600282177056" duration="2606000" />
+      <workItem from="1600309079092" duration="523000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600279324477">
