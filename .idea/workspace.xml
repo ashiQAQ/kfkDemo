@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39ff94e2-4c89-49e0-8472-356d800c99e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reame.md" beforeDir="false" afterPath="$PROJECT_DIR$/reame.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端和sql初始化数据/kafka.rar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端和sql初始化数据/kafka测试html/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端和sql初始化数据/kafka测试html/plugins/axios.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端和sql初始化数据/kafka测试html/plugins/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端和sql初始化数据/kafka测试html/plugins/vue.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端和sql初始化数据/sql/sql.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端和sql初始化数据/zookeeper.rar" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reame.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +114,7 @@
       <workItem from="1600276537479" duration="1059000" />
       <workItem from="1600277647565" duration="4496000" />
       <workItem from="1600282177056" duration="2606000" />
-      <workItem from="1600309079092" duration="523000" />
+      <workItem from="1600309079092" duration="1434000" />
     </task>
     <servers />
   </component>
@@ -209,9 +201,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="334" y="227" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1600277141861" />
-    <state x="616" y="173" width="670" height="676" key="search.everywhere.popup" timestamp="1600280555718">
+    <state x="616" y="173" width="672" height="676" key="search.everywhere.popup" timestamp="1600311943994">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="616" y="173" width="672" height="676" key="search.everywhere.popup/0.0.1920.1040/-1920.-65.1920.1040@0.0.1920.1040" timestamp="1600311943994" />
     <state x="616" y="173" width="670" height="676" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600280555718" />
   </component>
   <component name="XDebuggerManager">
